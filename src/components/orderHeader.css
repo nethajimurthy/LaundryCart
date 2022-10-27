@@ -1,0 +1,71 @@
+.header{
+  border: 1px solid lightgray;
+  display: flex;
+  height: 8.5vh;
+  box-sizing: border-box;
+}
+.header-right {
+  list-style-type: none;
+  flex: 1;
+}
+/* ui:first-child{ */.header-left{
+  display: flex;
+  align-items: center;
+}
+.header-right{
+  display: flex;
+  justify-content: flex-end;
+  /* align-content: center; */
+  align-items: center;
+}
+.header-left > li{
+  border: 0ch;
+  color: #5861AE;
+}
+.header-nav{
+  padding-left: 3vw;
+  padding-right: 3vw;
+  height: 8.5vh;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid lightgray;
+  text-transform: capitalize;
+}
+.light-text{
+  color: #565657;
+  opacity: 1;
+}
+.li{
+  background-color: #5861AE;
+  height: 8.5vh;
+  display: flex;
+  align-items: center;
+  padding-left: 1vw;
+  padding-right: 2.5vw;
+  color: white;
+  font-size: 1vw;
+  width: 13vw;
+}
+.li > span{
+  border-radius: 50%;
+  padding-right: 1vw;
+  width: 3vw;
+}
+span > img{
+  width: 2.5vw;
+}
+.logout-option{
+  background-color: #5861AE;
+  color: white;
+  border: 0px;
+}
+.logout{
+  padding-left: 2vw;
+}
+.logout > button{
+  height: 7.5vh;
+  border: 0;
+  padding: 0 6px;
+  background-color: #5861AE;
+  color: white;
+}
